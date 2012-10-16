@@ -1,24 +1,2 @@
-##ANTLR3 grammar that reads config files and spits out Ruby objects
-
-##The goal is to enhance Ruby command-line shell (e.g. Rush:
-http://rush.heroku.com/) with a native config interpreter/query parser
-and some logistics commands for filtering and shipping the data back
-and forth, for now it is an early stand-alone version
-
-##Based on Fig generic configuration parser (in Java)  by Terrence
-Parr : http://www.antlr.org/wiki/display/ANTLR3/Fig+-+Generic+configuration+language+interpreter
-(ours is essentially a Ruby port with some grammar modifications)
-
-##Dynamically convert Ruby hash into an object:
-http://pullmonkey.com/2008/1/6/convert-a-ruby-hash-into-a-class-object
-
-##antlr3 Ruby gem by Kyle Yetter: http://antlr.ohboyohboyohboy.org/index.html
-
-##One of the best ANTLR tutorials out there, by Bart Kiers:
-http://bkiers.blogspot.com/2011/03/creating-your-own-programming-language.html
-
-##ANTLR and ANTLRWORKS : http://www.antlr.org/
-
-##Project repository: https://github.com/akamil/ship
-~
+##ANTLR3 grammar in Ruby that reads config files
 ~
